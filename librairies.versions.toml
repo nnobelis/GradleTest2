@@ -1,0 +1,7 @@
+[versions]
+
+hibernateCoreVersion = "6.3.1.Final"
+
+[libraries]
+
+hibernateCore = { module = "org.hibernate.orm:hibernate-core", version.ref = "hibernateCoreVersion" }

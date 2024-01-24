@@ -5,7 +5,8 @@ pluginManagement {
 }
 
 plugins {
-    id("my-plugin")
+    id("my-plugin.settings.librairies")
+    id("my-plugin.settings.repositories")
 }
 
 include(":Module2")

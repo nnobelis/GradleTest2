@@ -1,19 +1,19 @@
 ---
 repository:
   vcs:
-    type: ""
-    url: ""
-    revision: ""
+    type: "Git"
+    url: "git@github.com:nnobelis/GradleTest2.git"
+    revision: "818fd9c7952977aed4c2aa06e8ea3ecde0205062"
     path: ""
   vcs_processed:
-    type: ""
-    url: ""
-    revision: ""
+    type: "Git"
+    url: "ssh://git@github.com/nnobelis/GradleTest2.git"
+    revision: "818fd9c7952977aed4c2aa06e8ea3ecde0205062"
     path: ""
   config: {}
 analyzer:
-  start_time: "2024-01-24T15:31:16.457928511Z"
-  end_time: "2024-01-24T15:31:25.728594381Z"
+  start_time: "2024-01-24T16:27:33.315994971Z"
+  end_time: "2024-01-24T16:27:41.074653339Z"
   environment:
     ort_version: "IDE-SNAPSHOT"
     java_version: "21.0.1"
@@ -33,7 +33,7 @@ analyzer:
   result:
     projects:
     - id: "Gradle:buildLogic:settings:"
-      definition_file_path: ""
+      definition_file_path: "gradle/settings/build.gradle.kts"
       declared_licenses: []
       declared_licenses_processed: {}
       vcs:
@@ -42,10 +42,10 @@ analyzer:
         revision: ""
         path: ""
       vcs_processed:
-        type: ""
-        url: ""
-        revision: ""
-        path: ""
+        type: "Git"
+        url: "ssh://git@github.com/nnobelis/GradleTest2.git"
+        revision: "818fd9c7952977aed4c2aa06e8ea3ecde0205062"
+        path: "gradle/settings"
       homepage_url: ""
       scope_names:
       - "compileClasspath"
@@ -58,7 +58,7 @@ analyzer:
       - "testCompileClasspath"
       - "testRuntimeClasspath"
     - id: "Gradle:org.example:GradleTest2:1.0-SNAPSHOT"
-      definition_file_path: ""
+      definition_file_path: "build.gradle.kts"
       declared_licenses: []
       declared_licenses_processed: {}
       vcs:
@@ -67,9 +67,9 @@ analyzer:
         revision: ""
         path: ""
       vcs_processed:
-        type: ""
-        url: ""
-        revision: ""
+        type: "Git"
+        url: "ssh://git@github.com/nnobelis/GradleTest2.git"
+        revision: "818fd9c7952977aed4c2aa06e8ea3ecde0205062"
         path: ""
       homepage_url: ""
       scope_names:
@@ -83,7 +83,7 @@ analyzer:
       - "testCompileClasspath"
       - "testRuntimeClasspath"
     - id: "Gradle:org.example:Module2:1.0-SNAPSHOT"
-      definition_file_path: ""
+      definition_file_path: "Module2/build.gradle.kts"
       declared_licenses: []
       declared_licenses_processed: {}
       vcs:
@@ -92,10 +92,10 @@ analyzer:
         revision: ""
         path: ""
       vcs_processed:
-        type: ""
-        url: ""
-        revision: ""
-        path: ""
+        type: "Git"
+        url: "ssh://git@github.com/nnobelis/GradleTest2.git"
+        revision: "818fd9c7952977aed4c2aa06e8ea3ecde0205062"
+        path: "Module2"
       homepage_url: ""
       scope_names:
       - "compileClasspath"
