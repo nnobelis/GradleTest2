@@ -1,0 +1,2549 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config: {}
+analyzer:
+  start_time: "2024-01-24T15:31:16.457928511Z"
+  end_time: "2024-01-24T15:31:25.728594381Z"
+  environment:
+    ort_version: "IDE-SNAPSHOT"
+    java_version: "21.0.1"
+    os: "Linux"
+    processors: 16
+    max_memory: 8334082048
+    variables:
+      HOME: "/home/nino"
+      SHELL: "/bin/bash"
+      JAVA_HOME: "/usr/lib/jvm/temurin-17-jdk-amd64/"
+    tool_versions: {}
+  config:
+    allow_dynamic_versions: false
+    enabled_package_managers:
+    - "GradleInspector"
+    skip_excluded: false
+  result:
+    projects:
+    - id: "Gradle:buildLogic:settings:"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "compileClasspath"
+      - "embeddedKotlin"
+      - "kotlinBuildToolsApiClasspath"
+      - "kotlinCompilerClasspath"
+      - "kotlinCompilerPluginClasspathMain"
+      - "kotlinCompilerPluginClasspathTest"
+      - "kotlinKlibCommonizerClasspath"
+      - "testCompileClasspath"
+      - "testRuntimeClasspath"
+    - id: "Gradle:org.example:GradleTest2:1.0-SNAPSHOT"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "compileClasspath"
+      - "kotlinBuildToolsApiClasspath"
+      - "kotlinCompilerClasspath"
+      - "kotlinCompilerPluginClasspathMain"
+      - "kotlinCompilerPluginClasspathTest"
+      - "kotlinKlibCommonizerClasspath"
+      - "runtimeClasspath"
+      - "testCompileClasspath"
+      - "testRuntimeClasspath"
+    - id: "Gradle:org.example:Module2:1.0-SNAPSHOT"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "compileClasspath"
+      - "kotlinBuildToolsApiClasspath"
+      - "kotlinCompilerClasspath"
+      - "kotlinCompilerPluginClasspathMain"
+      - "kotlinCompilerPluginClasspathTest"
+      - "kotlinKlibCommonizerClasspath"
+      - "runtimeClasspath"
+      - "testCompileClasspath"
+      - "testRuntimeClasspath"
+    packages:
+    - id: "Maven:com.fasterxml:classmate:1.5.1"
+      purl: "pkg:maven/com.fasterxml/classmate@1.5.1"
+      authors:
+      - "Brian Langel"
+      - "Tatu Saloranta"
+      - "fasterxml.com"
+      declared_licenses:
+      - "Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          Apache License, Version 2.0: "Apache-2.0"
+      description: "Library for introspecting types with full generic information\n\
+        \        including resolving of field and method types."
+      homepage_url: "https://github.com/FasterXML/java-classmate"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar"
+        hash:
+          value: "3fe0bed568c62df5e89f4f174c101eab25345b6c"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar"
+        hash:
+          value: "504edac38ff03cc5ce1d0391abb1416ffad58a99"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git@github.com:FasterXML/java-classmate.git"
+        revision: "classmate-1.5.1"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/FasterXML/java-classmate.git"
+        revision: "classmate-1.5.1"
+        path: ""
+    - id: "Maven:com.sun.istack:istack-commons-runtime:4.1.1"
+      purl: "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.1"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle Corporation"
+      declared_licenses:
+      - "Eclipse Distribution License - v 1.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause"
+        mapped:
+          Eclipse Distribution License - v 1.0: "BSD-3-Clause"
+      description: "istack common utility code"
+      homepage_url: "https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar"
+        hash:
+          value: "9b3769c76235bc283b060da4fae2318c6d53f07e"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1-sources.jar"
+        hash:
+          value: "e7ed552d83b79b0b36d8c7cd2f64e523110795d3"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-istack-commons.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-istack-commons.git"
+        revision: ""
+        path: ""
+    - id: "Maven:io.smallrye:jandex:3.1.2"
+      purl: "pkg:maven/io.smallrye/jandex@3.1.2"
+      authors:
+      - "Red Hat"
+      declared_licenses:
+      - "Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          Apache License, Version 2.0: "Apache-2.0"
+      description: "SmallRye Build Parent POM"
+      homepage_url: "https://smallrye.io"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar"
+        hash:
+          value: "a6c1c89925c7df06242b03dddb353116ceb9584c"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2-sources.jar"
+        hash:
+          value: "35283029daace9fdef053223d8759d24562d51b3"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git@github.com:smallrye/jandex.git"
+        revision: "3.1.2"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/smallrye/jandex.git"
+        revision: "3.1.2"
+        path: ""
+    - id: "Maven:jakarta.activation:jakarta.activation-api:2.1.1"
+      purl: "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.1"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle"
+      declared_licenses:
+      - "EDL 1.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause"
+        mapped:
+          EDL 1.0: "BSD-3-Clause"
+      description: "Jakarta Activation API 2.1 Specification"
+      homepage_url: "https://github.com/jakartaee/jaf-api"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.jar"
+        hash:
+          value: "88c774ab863a21fb2fc4219af95379fafe499a31"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1-sources.jar"
+        hash:
+          value: "cd6029d4d4362e4ab559a7840098df0ee3586964"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "ssh://git@github.com/jakartaee/jaf-api.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/jakartaee/jaf-api.git"
+        revision: ""
+        path: ""
+    - id: "Maven:jakarta.inject:jakarta.inject-api:2.0.1"
+      purl: "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1"
+      authors:
+      - "Eclipse Foundation"
+      - "Red Hat Inc."
+      declared_licenses:
+      - "The Apache Software License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache Software License, Version 2.0: "Apache-2.0"
+      description: "Jakarta Dependency Injection"
+      homepage_url: "https://github.com/eclipse-ee4j/injection-api"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar"
+        hash:
+          value: "4c28afe1991a941d7702fe1362c365f0a8641d1e"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1-sources.jar"
+        hash:
+          value: "569d6c5f18d6ff83c82152d1870cf0faf830c594"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/injection-api.git"
+        revision: "2.0.1"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/injection-api.git"
+        revision: "2.0.1"
+        path: ""
+    - id: "Maven:jakarta.persistence:jakarta.persistence-api:3.1.0"
+      purl: "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.1.0"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle, Inc."
+      declared_licenses:
+      - "Eclipse Distribution License v. 1.0"
+      - "Eclipse Public License v. 2.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause OR EPL-2.0"
+        mapped:
+          Eclipse Distribution License v. 1.0: "BSD-3-Clause"
+          Eclipse Public License v. 2.0: "EPL-2.0"
+      description: "Eclipse Enterprise for Java (EE4J) is an open source initiative\
+        \ to create standard APIs,\n        implementations of those APIs, and technology\
+        \ compatibility kits for Java runtimes\n        that enable development, deployment,\
+        \ and management of server-side and cloud-native applications."
+      homepage_url: "https://github.com/eclipse-ee4j/jpa-api"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+        hash:
+          value: "66901fa1c373c6aff65c13791cc11da72060a8d6"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0-sources.jar"
+        hash:
+          value: "8d479b8d71750d5c2b8e58034b80231994cba6ec"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/eclipse-ee4j/jpa-api.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/eclipse-ee4j/jpa-api.git"
+        revision: ""
+        path: ""
+    - id: "Maven:jakarta.transaction:jakarta.transaction-api:2.0.1"
+      purl: "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1"
+      authors:
+      - "EE4J Community"
+      - "Oracle, Inc."
+      declared_licenses:
+      - "EPL 2.0"
+      - "GPL2 w/ CPE"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0"
+        mapped:
+          EPL 2.0: "EPL-2.0"
+          GPL2 w/ CPE: "GPL-2.0-only WITH Classpath-exception-2.0"
+      description: "Jakarta Transactions"
+      homepage_url: "https://projects.eclipse.org/projects/ee4j.jta"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar"
+        hash:
+          value: "51a520e3fae406abb84e2e1148e6746ce3f80a1a"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1-sources.jar"
+        hash:
+          value: "660c982b9f5a7c8a6613c84f6e1c8b9221a4c574"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/eclipse-ee4j/jta-api.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/eclipse-ee4j/jta-api.git"
+        revision: ""
+        path: ""
+    - id: "Maven:jakarta.xml.bind:jakarta.xml.bind-api:4.0.0"
+      purl: "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle Corporation"
+      declared_licenses:
+      - "Eclipse Distribution License - v 1.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause"
+        mapped:
+          Eclipse Distribution License - v 1.0: "BSD-3-Clause"
+      description: "Jakarta XML Binding API"
+      homepage_url: "https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar"
+        hash:
+          value: "bbb399208d288b15ec101fa4fcfc4bd77cedc97a"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0-sources.jar"
+        hash:
+          value: "b8e46353907cfaccef843fff62d72476f8ad88ce"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/eclipse-ee4j/jaxb-api.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/eclipse-ee4j/jaxb-api.git"
+        revision: ""
+        path: ""
+    - id: "Maven:net.bytebuddy:byte-buddy:1.14.7"
+      purl: "pkg:maven/net.bytebuddy/byte-buddy@1.14.7"
+      authors:
+      - "Rafael Winterhalter"
+      declared_licenses:
+      - "Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          Apache License, Version 2.0: "Apache-2.0"
+      description: "Byte Buddy is a Java library for creating Java classes at run\
+        \ time.\n        This artifact is a build of Byte Buddy with all ASM dependencies\
+        \ repackaged into its own name space."
+      homepage_url: "https://bytebuddy.net/byte-buddy"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.jar"
+        hash:
+          value: "34efde5f0bb93afc94aaf9d400521899c4806873"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7-sources.jar"
+        hash:
+          value: "8c13f18c950acdd703deae7249f1392f66b6c334"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git@github.com:raphw/byte-buddy.git/byte-buddy"
+        revision: "byte-buddy-1.14.7"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/raphw/byte-buddy.git"
+        revision: "byte-buddy-1.14.7"
+        path: "byte-buddy"
+    - id: "Maven:org.antlr:antlr4-runtime:4.10.1"
+      purl: "pkg:maven/org.antlr/antlr4-runtime@4.10.1"
+      authors:
+      - "ANTLR"
+      - "Eric Vergnaud"
+      - "Jim Idle"
+      - "Mike Lischke"
+      - "Peter Boyer"
+      - "Sam Harwell"
+      - "Terence Parr"
+      - "Tom Everett"
+      declared_licenses:
+      - "The BSD License"
+      declared_licenses_processed:
+        unmapped:
+        - "The BSD License"
+      description: "The ANTLR 4 Runtime"
+      homepage_url: "http://www.antlr.org/antlr4-runtime"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar"
+        hash:
+          value: "10839f875928f59c622d675091d51a43ea0dc5f7"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1-sources.jar"
+        hash:
+          value: "a5214c71b2fa1d776d69674bf75eeb3f1fee8a62"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/antlr/antlr4.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/antlr/antlr4.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.apiguardian:apiguardian-api:1.1.0"
+      purl: "pkg:maven/org.apiguardian/apiguardian-api@1.1.0"
+      authors:
+      - "@API Guardian Team"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "@API Guardian"
+      homepage_url: "https://github.com/apiguardian-team/apiguardian"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar"
+        hash:
+          value: "fc9dff4bb36d627bdc553de77e1f17efd790876c"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar"
+        hash:
+          value: "f3c15fe970af864390c8d0634c9f16aca1b064a8"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/apiguardian-team/apiguardian.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/apiguardian-team/apiguardian.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.eclipse.angus:angus-activation:2.0.0"
+      purl: "pkg:maven/org.eclipse.angus/angus-activation@2.0.0"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle"
+      declared_licenses:
+      - "EDL 1.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause"
+        mapped:
+          EDL 1.0: "BSD-3-Clause"
+      description: "Angus Activation Registries Implementation"
+      homepage_url: "https://github.com/eclipse-ee4j/angus-activation/angus-activation"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar"
+        hash:
+          value: "72369f4e2314d38de2dcbb277141ef0226f73151"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0-sources.jar"
+        hash:
+          value: "cb50d6abc1e0491aa2e33f1f2fb54cd15b8bef43"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse/angus-activation.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse/angus-activation.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.glassfish.jaxb:jaxb-core:4.0.2"
+      purl: "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.2"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle Corporation"
+      declared_licenses:
+      - "Eclipse Distribution License - v 1.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause"
+        mapped:
+          Eclipse Distribution License - v 1.0: "BSD-3-Clause"
+      description: "JAXB Core module. Contains sources required by XJC, JXC and Runtime\
+        \ modules."
+      homepage_url: "https://eclipse-ee4j.github.io/jaxb-ri/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar"
+        hash:
+          value: "08c29249f6c10f4ee08967783831580b0f5c5360"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2-sources.jar"
+        hash:
+          value: "ce7047bbe21999c85e6c6ea51f2ea555b5f9dfa4"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-ri"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-ri.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.glassfish.jaxb:jaxb-runtime:4.0.2"
+      purl: "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.2"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle Corporation"
+      declared_licenses:
+      - "Eclipse Distribution License - v 1.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause"
+        mapped:
+          Eclipse Distribution License - v 1.0: "BSD-3-Clause"
+      description: "JAXB (JSR 222) Reference Implementation"
+      homepage_url: "https://eclipse-ee4j.github.io/jaxb-ri/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar"
+        hash:
+          value: "e4e4e0c5b0d42054d00dc4023901572a60d368c7"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2-sources.jar"
+        hash:
+          value: "d8ac8efda28069eab004c99cc43202cafe8184a4"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-ri"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-ri.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.glassfish.jaxb:txw2:4.0.2"
+      purl: "pkg:maven/org.glassfish.jaxb/txw2@4.0.2"
+      authors:
+      - "Eclipse Foundation"
+      - "Oracle Corporation"
+      declared_licenses:
+      - "Eclipse Distribution License - v 1.0"
+      declared_licenses_processed:
+        spdx_expression: "BSD-3-Clause"
+        mapped:
+          Eclipse Distribution License - v 1.0: "BSD-3-Clause"
+      description: "TXW is a library that allows you to write XML documents."
+      homepage_url: "https://eclipse-ee4j.github.io/jaxb-ri/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar"
+        hash:
+          value: "24e167be69c29ebb7ee0a3b1f9b546f1dfd111fc"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2-sources.jar"
+        hash:
+          value: "6f202b9fd5ced3d369fb5d5f58cbf12bc568cfd7"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-ri"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/eclipse-ee4j/jaxb-ri.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
+      purl: "pkg:maven/org.hibernate.common/hibernate-commons-annotations@6.0.6.Final"
+      authors:
+      - "Hibernate.org"
+      declared_licenses:
+      - "GNU Library General Public License v2.1 or later"
+      declared_licenses_processed:
+        spdx_expression: "LGPL-2.1-or-later"
+        mapped:
+          GNU Library General Public License v2.1 or later: "LGPL-2.1-or-later"
+      description: "Common reflection code used in support of annotation processing"
+      homepage_url: "http://hibernate.org"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar"
+        hash:
+          value: "77a5f94b56d49508e0ee334751db5b78e5ccd50c"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final-sources.jar"
+        hash:
+          value: "113904346d97dbdf52883c90ef1ccd0bb8ffb74d"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "http://github.com/hibernate/hibernate-commons-annotations.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/hibernate/hibernate-commons-annotations.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.hibernate.orm:hibernate-core:6.3.1.Final"
+      purl: "pkg:maven/org.hibernate.orm/hibernate-core@6.3.1.Final"
+      authors:
+      - "Hibernate.org"
+      declared_licenses:
+      - "GNU Library General Public License v2.1 or later"
+      declared_licenses_processed:
+        spdx_expression: "LGPL-2.1-or-later"
+        mapped:
+          GNU Library General Public License v2.1 or later: "LGPL-2.1-or-later"
+      description: "Hibernate's core ORM functionality"
+      homepage_url: "https://hibernate.org/orm"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.3.1.Final/hibernate-core-6.3.1.Final.jar"
+        hash:
+          value: "1101d7e09e4853a110fd27a6f35c906f5709ac4f"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.3.1.Final/hibernate-core-6.3.1.Final-sources.jar"
+        hash:
+          value: "7f46ccb21d7deab8e85fbc627c2a2c88be6e22f3"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/hibernate/hibernate-orm.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/hibernate/hibernate-orm.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jboss.logging:jboss-logging:3.5.0.Final"
+      purl: "pkg:maven/org.jboss.logging/jboss-logging@3.5.0.Final"
+      authors:
+      - "JBoss by Red Hat"
+      - "JBoss.org"
+      declared_licenses:
+      - "Apache License, version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          Apache License, version 2.0: "Apache-2.0"
+      description: "The JBoss Logging Framework"
+      homepage_url: "http://www.jboss.org"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar"
+        hash:
+          value: "c19307cc11f28f5e2679347e633a3294d865334d"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final-sources.jar"
+        hash:
+          value: "ad075152c4716d3d2b285444551ca88c8f996bf1"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/jboss-logging/jboss-logging.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/jboss-logging/jboss-logging.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains:annotations:13.0"
+      purl: "pkg:maven/org.jetbrains/annotations@13.0"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache Software License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache Software License, Version 2.0: "Apache-2.0"
+      description: "A set of annotations used for code inspection support and code\
+        \ documentation."
+      homepage_url: "http://www.jetbrains.org"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+        hash:
+          value: "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar"
+        hash:
+          value: "5991ca87ef1fb5544943d9abc5a9a37583fabe03"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/intellij-community.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/intellij-community.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.intellij.deps:trove4j:1.0.20200330"
+      purl: "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "GNU LESSER GENERAL PUBLIC LICENSE 2.1"
+      declared_licenses_processed:
+        spdx_expression: "LGPL-2.1-only"
+        mapped:
+          GNU LESSER GENERAL PUBLIC LICENSE 2.1: "LGPL-2.1-only"
+      description: "Fork of trove4j library used in IntelliJ Platform."
+      homepage_url: "https://github.com/JetBrains/intellij-deps-trove4j"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/intellij/deps/trove4j/1.0.20200330/trove4j-1.0.20200330.jar"
+        hash:
+          value: "3afb14d5f9ceb459d724e907a21145e8ff394f02"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/intellij/deps/trove4j/1.0.20200330/trove4j-1.0.20200330-sources.jar"
+        hash:
+          value: "5fc2da70caaebed24734161c6c33648a15396917"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/JetBrains/intellij-deps-trove4j.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/intellij-deps-trove4j.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-assignment-compiler-plugin-embeddable:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-assignment-compiler-plugin-embeddable@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Assignment Compiler Plugin (Embeddable)"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-build-common:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-build-common@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Build Common"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-build-common:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-build-common@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Build Common"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-common/1.9.21/kotlin-build-common-1.9.21.jar"
+        hash:
+          value: "fe8f1cab8c3c59137aba0698efbc177ceb6e86f3"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-common/1.9.21/kotlin-build-common-1.9.21-sources.jar"
+        hash:
+          value: "dc711585fcb91ccfe4bde1b4df7bd973b6ebf79e"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-build-tools-api:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-api@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Build Tools Api"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-build-tools-api:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-api@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Build Tools Api"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/1.9.21/kotlin-build-tools-api-1.9.21.jar"
+        hash:
+          value: "b7bc45688d837095bc721173b172acb47b9e7e74"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/1.9.21/kotlin-build-tools-api-1.9.21-sources.jar"
+        hash:
+          value: "b7d0777a5bcdd6cc6afbd3e1d4c1d61c6a066a3b"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-build-tools-impl:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-impl@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Build Tools Impl"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-build-tools-impl:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-impl@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Build Tools Impl"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/1.9.21/kotlin-build-tools-impl-1.9.21.jar"
+        hash:
+          value: "f7a3c1681bd9271351e0d9e42b6389c3e4c6f3d1"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/1.9.21/kotlin-build-tools-impl-1.9.21-sources.jar"
+        hash:
+          value: "71d23abdfa0d6ab4a8eeb16c5fd5a3aa72d57851"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Compiler (embeddable)"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Compiler (embeddable)"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.9.21/kotlin-compiler-embeddable-1.9.21.jar"
+        hash:
+          value: "a8f2d2fed3fc195beef3fab4a7fd1a844e101f0e"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.9.21/kotlin-compiler-embeddable-1.9.21-sources.jar"
+        hash:
+          value: "37cf1816ed410299b0e7cad3f9f949fc78327071"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-compiler-runner:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-runner@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Compiler runner + daemon client"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-compiler-runner:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-runner@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Compiler runner + daemon client"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/1.9.21/kotlin-compiler-runner-1.9.21.jar"
+        hash:
+          value: "cd35bea5df179b127562024867601c0ee504ad3e"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/1.9.21/kotlin-compiler-runner-1.9.21-sources.jar"
+        hash:
+          value: "f0201017bcca51ad04b4bcaef4e511cf8a1cbf3d"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-daemon-client:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-client@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Daemon Client"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-daemon-client:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-client@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Daemon Client"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/1.9.21/kotlin-daemon-client-1.9.21.jar"
+        hash:
+          value: "37e26257f1dbec3dc6fd566ddedb8613c9fced98"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/1.9.21/kotlin-daemon-client-1.9.21-sources.jar"
+        hash:
+          value: "85b901b1ca6bcaf90188969e1f02e372c9cfe39b"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Daemon (for using with embeddable compiler)"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Daemon (for using with embeddable compiler)"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.9.21/kotlin-daemon-embeddable-1.9.21.jar"
+        hash:
+          value: "e21e55f41ec5f254aec366097b902709b5843234"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.9.21/kotlin-daemon-embeddable-1.9.21-sources.jar"
+        hash:
+          value: "332e979c65e3402ea9ae22a8fa1284100d829b26"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin KLIB Library Commonizer (for using with embeddable compiler)"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin KLIB Library Commonizer (for using with embeddable compiler)"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-embeddable/1.9.21/kotlin-klib-commonizer-embeddable-1.9.21.jar"
+        hash:
+          value: "6aa2e04d5b33702a9bfe446563c9a272c2944562"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-embeddable/1.9.21/kotlin-klib-commonizer-embeddable-1.9.21-sources.jar"
+        hash:
+          value: "2ad14aed781c4a73ed4dbb421966d408a0a06686"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-reflect:1.6.10"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Full Reflection Library"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar"
+        hash:
+          value: "1cbe9c92c12a94eea200d23c2bbaedaf3daf5132"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10-sources.jar"
+        hash:
+          value: "045a69749441dc0f18fe2c5b27e5e110a6be50e7"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-reflect:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Full Reflection Library"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-sam-with-receiver-compiler-plugin-embeddable:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-sam-with-receiver-compiler-plugin-embeddable@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Sam With Receiver Compiler Plugin.embeddable"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-script-runtime:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Script Runtime"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-script-runtime:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Script Runtime"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/1.9.21/kotlin-script-runtime-1.9.21.jar"
+        hash:
+          value: "f5ff679bd666f7f2376209fff998b775b7b701c7"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/1.9.21/kotlin-script-runtime-1.9.21-sources.jar"
+        hash:
+          value: "afce47cd1e5334a5b1a5945068f46cd2999dfb93"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-common:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Scripting Common"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-common:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Scripting Common"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.9.21/kotlin-scripting-common-1.9.21.jar"
+        hash:
+          value: "8213aed8eac445b515678dbb407193b9da983038"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.9.21/kotlin-scripting-common-1.9.21-sources.jar"
+        hash:
+          value: "59cb78c2e41462dda20160ac3ebd2551f9d46202"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Scripting Compiler Plugin for embeddable compiler"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Scripting Compiler Plugin for embeddable compiler"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.9.21/kotlin-scripting-compiler-embeddable-1.9.21.jar"
+        hash:
+          value: "660c1f9bbf2ac3ac9713a0e2724c831ce5af969c"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.9.21/kotlin-scripting-compiler-embeddable-1.9.21-sources.jar"
+        hash:
+          value: "802ee8613a8a2cb21f4a7a51c16fc74d8105a182"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Compiler Infrastructure for Scripting for embeddable compiler"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Compiler Infrastructure for Scripting for embeddable compiler"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.9.21/kotlin-scripting-compiler-impl-embeddable-1.9.21.jar"
+        hash:
+          value: "861560931dd9d68c6ccb6328d10569cef71ce835"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.9.21/kotlin-scripting-compiler-impl-embeddable-1.9.21-sources.jar"
+        hash:
+          value: "03bdcbf13566a3654072257620a3d17e75fdc6f2"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Scripting Jvm"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Scripting Jvm"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.9.21/kotlin-scripting-jvm-1.9.21.jar"
+        hash:
+          value: "39be7444439f0a9db3b2d5dd175f3b54f4a714d1"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.9.21/kotlin-scripting-jvm-1.9.21-sources.jar"
+        hash:
+          value: "9dcd0643430351d675080e65b30e2fdb60118d4d"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.20"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Standard Library"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Standard Library"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.21/kotlin-stdlib-1.9.21.jar"
+        hash:
+          value: "17ee3e873d439566c7d8354403b5f3d9744c4c9c"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.21/kotlin-stdlib-1.9.21-sources.jar"
+        hash:
+          value: "43e9ef064cecccbccceeaa746d6dd8b04a9669a1"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-test:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-test@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Test Multiplatform library"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test/1.9.21/kotlin-test-1.9.21.jar"
+        hash:
+          value: "2e03c9f094744905ef267dad17bfdddf4f2095d9"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test/1.9.21/kotlin-test-1.9.21-sources.jar"
+        hash:
+          value: "f6f59039a76e8f3e4fe3a180520f84dc1dbf0d98"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlin:kotlin-test-junit5:1.9.21"
+      purl: "pkg:maven/org.jetbrains.kotlin/kotlin-test-junit5@1.9.21"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Kotlin Test Support for junit5"
+      homepage_url: "https://kotlinlang.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit5/1.9.21/kotlin-test-junit5-1.9.21.jar"
+        hash:
+          value: "65746a66412497c739a8f8a4f55b74543c180d39"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit5/1.9.21/kotlin-test-junit5-1.9.21-sources.jar"
+        hash:
+          value: "b86f0737a40854acc07d00cb6eee053c0b707b57"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/JetBrains/kotlin.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0"
+      purl: "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.5.0"
+      authors:
+      - "JetBrains"
+      declared_licenses:
+      - "The Apache Software License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache Software License, Version 2.0: "Apache-2.0"
+      description: "Coroutines support libraries for Kotlin"
+      homepage_url: "https://github.com/Kotlin/kotlinx.coroutines"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0/kotlinx-coroutines-core-jvm-1.5.0.jar"
+        hash:
+          value: "d8cebccdcddd029022aa8646a5a953ff88b13ac8"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0/kotlinx-coroutines-core-jvm-1.5.0-sources.jar"
+        hash:
+          value: "c188f12813668c2fb0f761fbc71ea53cfa83549e"
+          algorithm: "SHA-1"
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/Kotlin/kotlinx.coroutines.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.jupiter:junit-jupiter-api:5.6.3"
+      purl: "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.6.3"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-jupiter-api\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar"
+        hash:
+          value: "73ea5e2b7f112616315d3e2325a98e6e93c2813a"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3-sources.jar"
+        hash:
+          value: "e59edc94cf4c0dec770e942d6cd1252162f06a8d"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.jupiter:junit-jupiter-engine:5.6.3"
+      purl: "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.6.3"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-jupiter-engine\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar"
+        hash:
+          value: "234f250d1608684c4436d72214e7530f23cb8a03"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3-sources.jar"
+        hash:
+          value: "8b2c052d418655fb897ccae5cd94eb006c81608c"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.platform:junit-platform-commons:1.6.3"
+      purl: "pkg:maven/org.junit.platform/junit-platform-commons@1.6.3"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-platform-commons\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar"
+        hash:
+          value: "7ce526bbb9e6202e8a30140a50bfff644fddd10e"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3-sources.jar"
+        hash:
+          value: "e276379850676f048f602fedbbe7d4209bf67610"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.platform:junit-platform-engine:1.6.3"
+      purl: "pkg:maven/org.junit.platform/junit-platform-engine@1.6.3"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-platform-engine\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar"
+        hash:
+          value: "a926b9bbc7fe67c5795ee1f00cc1b618b313e5ce"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3-sources.jar"
+        hash:
+          value: "9d57c93c2ee2f70175fdc16f15048c4c6228d913"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.opentest4j:opentest4j:1.2.0"
+      purl: "pkg:maven/org.opentest4j/opentest4j@1.2.0"
+      authors:
+      - "Johannes Link"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Open Test Alliance for the JVM"
+      homepage_url: "https://github.com/ota4j-team/opentest4j"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"
+        hash:
+          value: "28c11eb91f9b6d8e200631d46e20a7f407f2a046"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar"
+        hash:
+          value: "41d55b3c2254de9837b4ec8923cbd371b8a7eab5"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/ota4j-team/opentest4j.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/ota4j-team/opentest4j.git"
+        revision: ""
+        path: ""
+    dependency_graphs:
+      Gradle:
+        packages:
+        - "Maven:com.fasterxml:classmate:1.5.1"
+        - "Maven:com.sun.istack:istack-commons-runtime:4.1.1"
+        - "Maven:io.smallrye:jandex:3.1.2"
+        - "Maven:jakarta.activation:jakarta.activation-api:2.1.1"
+        - "Maven:jakarta.inject:jakarta.inject-api:2.0.1"
+        - "Maven:jakarta.persistence:jakarta.persistence-api:3.1.0"
+        - "Maven:jakarta.transaction:jakarta.transaction-api:2.0.1"
+        - "Maven:jakarta.xml.bind:jakarta.xml.bind-api:4.0.0"
+        - "Maven:net.bytebuddy:byte-buddy:1.14.7"
+        - "Maven:org.antlr:antlr4-runtime:4.10.1"
+        - "Maven:org.apiguardian:apiguardian-api:1.1.0"
+        - "Maven:org.eclipse.angus:angus-activation:2.0.0"
+        - "Maven:org.glassfish.jaxb:jaxb-core:4.0.2"
+        - "Maven:org.glassfish.jaxb:jaxb-runtime:4.0.2"
+        - "Maven:org.glassfish.jaxb:txw2:4.0.2"
+        - "Maven:org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
+        - "Maven:org.hibernate.orm:hibernate-core:6.3.1.Final"
+        - "Maven:org.jboss.logging:jboss-logging:3.5.0.Final"
+        - "Maven:org.jetbrains.intellij.deps:trove4j:1.0.20200330"
+        - "Maven:org.jetbrains.kotlin:kotlin-assignment-compiler-plugin-embeddable:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-build-common:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-build-common:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-build-tools-api:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-build-tools-api:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-build-tools-impl:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-build-tools-impl:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-compiler-runner:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-compiler-runner:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-daemon-client:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-daemon-client:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-reflect:1.6.10"
+        - "Maven:org.jetbrains.kotlin:kotlin-reflect:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-sam-with-receiver-compiler-plugin-embeddable:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-script-runtime:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-script-runtime:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-common:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-common:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+        - "Maven:org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-test-junit5:1.9.21"
+        - "Maven:org.jetbrains.kotlin:kotlin-test:1.9.21"
+        - "Maven:org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0"
+        - "Maven:org.jetbrains:annotations:13.0"
+        - "Maven:org.junit.jupiter:junit-jupiter-api:5.6.3"
+        - "Maven:org.junit.jupiter:junit-jupiter-engine:5.6.3"
+        - "Maven:org.junit.platform:junit-platform-commons:1.6.3"
+        - "Maven:org.junit.platform:junit-platform-engine:1.6.3"
+        - "Maven:org.opentest4j:opentest4j:1.2.0"
+        scopes:
+          buildLogic:settings::compileClasspath:
+          - root: 37
+          - root: 49
+            fragment: 1
+          buildLogic:settings::embeddedKotlin:
+          - root: 37
+          - root: 49
+            fragment: 1
+          buildLogic:settings::kotlinBuildToolsApiClasspath:
+          - root: 24
+          buildLogic:settings::kotlinCompilerClasspath:
+          - root: 26
+            fragment: 2
+          buildLogic:settings::kotlinCompilerPluginClasspathMain:
+          - root: 19
+          - root: 38
+          - root: 43
+          buildLogic:settings::kotlinCompilerPluginClasspathTest:
+          - root: 19
+          - root: 38
+          - root: 43
+          buildLogic:settings::kotlinKlibCommonizerClasspath:
+          - root: 34
+          buildLogic:settings::testCompileClasspath:
+          - root: 37
+          - root: 49
+            fragment: 1
+          buildLogic:settings::testRuntimeClasspath:
+          - root: 37
+          - root: 49
+            fragment: 1
+          org.example:GradleTest2:1.0-SNAPSHOT:compileClasspath:
+          - root: 50
+          org.example:GradleTest2:1.0-SNAPSHOT:kotlinBuildToolsApiClasspath:
+          - root: 25
+          org.example:GradleTest2:1.0-SNAPSHOT:kotlinCompilerClasspath:
+          - root: 27
+            fragment: 2
+          org.example:GradleTest2:1.0-SNAPSHOT:kotlinCompilerPluginClasspathMain:
+          - root: 44
+          org.example:GradleTest2:1.0-SNAPSHOT:kotlinCompilerPluginClasspathTest:
+          - root: 44
+          org.example:GradleTest2:1.0-SNAPSHOT:kotlinKlibCommonizerClasspath:
+          - root: 35
+          org.example:GradleTest2:1.0-SNAPSHOT:runtimeClasspath:
+          - root: 50
+          org.example:GradleTest2:1.0-SNAPSHOT:testCompileClasspath:
+          - root: 50
+          - root: 52
+          - root: 52
+            fragment: 1
+          - root: 52
+            fragment: 1
+          org.example:GradleTest2:1.0-SNAPSHOT:testRuntimeClasspath:
+          - root: 50
+          - root: 52
+          - root: 52
+            fragment: 2
+          org.example:Module2:1.0-SNAPSHOT:compileClasspath:
+          - root: 16
+          - root: 50
+          org.example:Module2:1.0-SNAPSHOT:kotlinBuildToolsApiClasspath:
+          - root: 25
+          org.example:Module2:1.0-SNAPSHOT:kotlinCompilerClasspath:
+          - root: 27
+            fragment: 2
+          org.example:Module2:1.0-SNAPSHOT:kotlinCompilerPluginClasspathMain:
+          - root: 44
+          org.example:Module2:1.0-SNAPSHOT:kotlinCompilerPluginClasspathTest:
+          - root: 44
+          org.example:Module2:1.0-SNAPSHOT:kotlinKlibCommonizerClasspath:
+          - root: 35
+          org.example:Module2:1.0-SNAPSHOT:runtimeClasspath:
+          - root: 16
+            fragment: 1
+          - root: 50
+          org.example:Module2:1.0-SNAPSHOT:testCompileClasspath:
+          - root: 16
+          - root: 50
+          org.example:Module2:1.0-SNAPSHOT:testRuntimeClasspath:
+          - root: 16
+            fragment: 1
+          - root: 50
+        nodes:
+        - pkg: 54
+        - pkg: 50
+        - pkg: 23
+        - pkg: 50
+          fragment: 1
+        - pkg: 40
+        - pkg: 36
+        - pkg: 33
+        - pkg: 18
+        - pkg: 27
+        - pkg: 27
+          fragment: 1
+        - pkg: 21
+        - pkg: 31
+        - pkg: 53
+        - pkg: 29
+        - pkg: 25
+        - pkg: 27
+          fragment: 2
+        - pkg: 42
+        - pkg: 42
+          fragment: 1
+        - pkg: 48
+        - pkg: 46
+        - pkg: 44
+        - pkg: 35
+        - pkg: 52
+        - pkg: 10
+        - pkg: 59
+        - pkg: 57
+        - pkg: 55
+        - pkg: 51
+        - pkg: 52
+          fragment: 1
+        - pkg: 55
+          fragment: 1
+        - pkg: 57
+          fragment: 1
+        - pkg: 55
+          fragment: 2
+        - pkg: 58
+        - pkg: 56
+        - pkg: 51
+          fragment: 1
+        - pkg: 52
+          fragment: 2
+        - pkg: 49
+        - pkg: 37
+        - pkg: 49
+          fragment: 1
+        - pkg: 22
+        - pkg: 39
+        - pkg: 32
+        - pkg: 26
+        - pkg: 26
+          fragment: 1
+        - pkg: 20
+        - pkg: 30
+        - pkg: 28
+        - pkg: 24
+        - pkg: 26
+          fragment: 2
+        - pkg: 19
+        - pkg: 38
+        - pkg: 41
+        - pkg: 41
+          fragment: 1
+        - pkg: 47
+        - pkg: 45
+        - pkg: 43
+        - pkg: 34
+        - pkg: 5
+        - pkg: 6
+        - pkg: 16
+        - pkg: 17
+        - pkg: 15
+        - pkg: 2
+        - {}
+        - pkg: 8
+        - pkg: 3
+        - pkg: 7
+        - pkg: 7
+          fragment: 1
+        - pkg: 11
+        - pkg: 14
+        - pkg: 1
+        - pkg: 12
+        - pkg: 13
+        - pkg: 4
+        - pkg: 9
+        - pkg: 16
+          fragment: 1
+        edges:
+        - from: 1
+          to: 0
+        - from: 8
+          to: 3
+        - from: 8
+          to: 4
+        - from: 8
+          to: 5
+        - from: 8
+          to: 6
+        - from: 8
+          to: 7
+        - from: 13
+          to: 9
+        - from: 13
+          to: 10
+        - from: 13
+          to: 11
+        - from: 13
+          to: 12
+        - from: 14
+          to: 1
+        - from: 14
+          to: 2
+        - from: 14
+          to: 8
+        - from: 14
+          to: 13
+        - from: 15
+          to: 1
+        - from: 15
+          to: 4
+        - from: 15
+          to: 5
+        - from: 15
+          to: 6
+        - from: 15
+          to: 7
+        - from: 16
+          to: 1
+        - from: 18
+          to: 3
+        - from: 18
+          to: 4
+        - from: 18
+          to: 17
+        - from: 19
+          to: 3
+        - from: 19
+          to: 16
+        - from: 19
+          to: 18
+        - from: 20
+          to: 3
+        - from: 20
+          to: 19
+        - from: 21
+          to: 1
+        - from: 21
+          to: 8
+        - from: 25
+          to: 23
+        - from: 26
+          to: 23
+        - from: 26
+          to: 24
+        - from: 26
+          to: 25
+        - from: 27
+          to: 22
+        - from: 27
+          to: 26
+        - from: 28
+          to: 3
+        - from: 28
+          to: 27
+        - from: 31
+          to: 23
+        - from: 31
+          to: 24
+        - from: 31
+          to: 30
+        - from: 32
+          to: 23
+        - from: 32
+          to: 24
+        - from: 32
+          to: 25
+        - from: 33
+          to: 31
+        - from: 33
+          to: 23
+        - from: 33
+          to: 32
+        - from: 34
+          to: 22
+        - from: 34
+          to: 29
+        - from: 34
+          to: 33
+        - from: 35
+          to: 3
+        - from: 35
+          to: 34
+        - from: 37
+          to: 36
+        - from: 38
+          to: 0
+        - from: 42
+          to: 5
+        - from: 42
+          to: 7
+        - from: 42
+          to: 36
+        - from: 42
+          to: 40
+        - from: 42
+          to: 41
+        - from: 46
+          to: 12
+        - from: 46
+          to: 43
+        - from: 46
+          to: 44
+        - from: 46
+          to: 45
+        - from: 47
+          to: 38
+        - from: 47
+          to: 39
+        - from: 47
+          to: 42
+        - from: 47
+          to: 46
+        - from: 48
+          to: 5
+        - from: 48
+          to: 7
+        - from: 48
+          to: 38
+        - from: 48
+          to: 40
+        - from: 48
+          to: 41
+        - from: 51
+          to: 38
+        - from: 53
+          to: 36
+        - from: 53
+          to: 40
+        - from: 53
+          to: 52
+        - from: 54
+          to: 36
+        - from: 54
+          to: 51
+        - from: 54
+          to: 53
+        - from: 55
+          to: 36
+        - from: 55
+          to: 54
+        - from: 56
+          to: 38
+        - from: 56
+          to: 42
+        - from: 59
+          to: 57
+        - from: 59
+          to: 58
+        - from: 66
+          to: 65
+        - from: 68
+          to: 65
+        - from: 71
+          to: 67
+        - from: 71
+          to: 65
+        - from: 71
+          to: 68
+        - from: 71
+          to: 69
+        - from: 71
+          to: 70
+        - from: 72
+          to: 71
+        - from: 75
+          to: 57
+        - from: 75
+          to: 58
+        - from: 75
+          to: 60
+        - from: 75
+          to: 61
+        - from: 75
+          to: 62
+        - from: 75
+          to: 63
+        - from: 75
+          to: 64
+        - from: 75
+          to: 66
+        - from: 75
+          to: 72
+        - from: 75
+          to: 73
+        - from: 75
+          to: 74
+scanner: null
+advisor: null
+evaluator: null
+resolved_configuration:
+  package_curations:
+  - provider:
+      id: "DefaultDir"
+    curations: []
+  - provider:
+      id: "DefaultFile"
+    curations: []
